@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background: linear-gradient(267.45deg,#53f -34.23%,black);
+}
+
+.App-navhead {
+  background: linear-gradient(267.45deg,#53f -34.23%,black);
+  color: #13ec41;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.App-navlogo {
+  width: 150px;
+  padding: 0px 10px;
+  margin-right: auto;
+}
+
+.App-navitems {
+  list-style: none;
+  display: flex;
+}
+
+.App-navitems > li {
+  padding: 0 50px;
+  margin: 0;
+}
+
+.App-main {
+  background-color: #282c34;
+  min-height: 50vh;
+  padding: 0 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-top: #ee48e4 solid 1px;
+  border-left: #ee48e4 solid 1px;
+  border-radius: 10px;
+  background-image: url(./Images/MainPurpleStar.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 50%;
+}
+
+.App-h1 {
+  color: #13ec41;
+}
+
+/* .App-email {
+  width: 300px;
+  height: 30px;
+  border: #ee48e4 3px solid;
+  border-radius: 10px;
+  
+  text-align: center;
+} */
+
+.App-studiolink {
+  color: #ee48e4;
+}
+
+.App-link {
+  /* color: #61dafb; */
+  color: #ee48e4;
+}
+
+.App-buttonwild {
+  border: #ee48e4 3px solid;
+  border-radius: 10px;
+  
+  text-align: center;
+}
+
+.App-blog {
+  padding: 0 30px;
+  background: linear-gradient(267.45deg,#53f -34.23%,black);
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-top: #ee48e4 solid 1px;
+  border-left: #ee48e4 solid 1px;
+  border-radius: 10px;
+  /* background-color: #282c34; */
+}
+
+.App-nftview {
+  border-top: #ee48e4 solid 1px;
+  border-left: #ee48e4 solid 1px;
+  border-radius: 10px;
+}
+
+.App-footer {
+  padding: 0 30px 10px 30px;
+  background: linear-gradient(267.45deg,#53f -34.23%,black);
+  color: white;
+  border-top: #ee48e4 solid 1px;
+  border-left: #ee48e4 solid 1px;
+  border-radius: 10px;
+}
+
+.App-footeritems {
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+}
+
+
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+*/
