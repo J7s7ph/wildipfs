@@ -8,16 +8,16 @@ import Article from "./Article";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 
-function Blog() {
+function Home() {
     return (
-      <div className="Blog">
+      <div className="Home">
         <Header />
+        <MainContent />
         
-        <Article />
-        
+        <NFTView />
         <Footer />
       </div>
     );
   }
   
-  export default Blog;
+  export default Home;
