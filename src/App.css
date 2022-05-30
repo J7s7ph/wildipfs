@@ -196,6 +196,13 @@
   margin-right: 20px;
 }
 
+.Fireglow {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .Fireglow-card {
   width: 225px;
   border: rgb(255, 150, 51) 1px solid;
@@ -208,6 +215,16 @@
   padding: 5px 10px;
   align-items: center;
   justify-content: center;
+}
+
+.Fireglow-cardfilter {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
 
 .Fireglow-logo {

@@ -13,15 +13,57 @@ import Bufficorn from "./Images/Bufficorn7313.png"
 import Home from "./Images/home-icon.jpg"
 import Mag from "./Images/search-icon.png"
 import ChildFireglow from "./ChildFireglow"
+import data from "./Fireglowdata"
 
 function FireglowMain() {
+    
+    const iphone = data.map(item => {
+        return (
+            <ChildFireglow
+                    key={item.id}
+                    img={item.coverImg}
+                    minter={item.minter}
+                    add={item.add}
+                    filter={item.filter}
+                />
+        )
+    })
     return (
         
         <div className="FireglowMain">
             <div className="FireglowLeftDiv">
                 <h1>Own your connection<br></br>to brands</h1>
             </div>
-            <div className="Fireglow-card">
+            
+            <div className="Fireglow">
+               {iphone}
+            </div>
+        
+            
+        </div>    
+       
+        
+        
+        
+      
+    )
+  }
+  export default FireglowMain;
+
+  /* <img src={`../images/${props.img}`} className="card--image" />
+  use $ and back ticks to insert image
+
+                <ChildFireglow
+                    img={Bufficorn}
+                    minter="Bufficorn Buidl Brigade"
+                />
+                <ChildFireglow
+                    img={BufficornII} 
+                    minter="Bufficorn Buidl Brigade"                   
+                />
+       
+  
+  <div className="Fireglow-card">
                 <div className="Fireglow-nav">
                     <p className="Fireglow-logo">Fireglow</p>
                     <p className="Fireglow-plus">+</p>
@@ -51,22 +93,4 @@ function FireglowMain() {
                 </div>
 
             </div>
-        </div>    
-       
-        
-        
-        
-      
-    )
-  }
-  export default FireglowMain;
-
-  /* <div>
-            <div className="ChildFireglow">
-                <ChildFireglow 
-                    
-            />
-
-            </div>
-        </div>
-        */
+  */
