@@ -1,4 +1,6 @@
-import { parseFixed } from "@ethersproject/bignumber";
+    /*
+    import { parseFixed } from "@ethersproject/bignumber";
+    */
 
 
 export default [

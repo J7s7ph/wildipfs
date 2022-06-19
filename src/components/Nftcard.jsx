@@ -1,7 +1,10 @@
+import React from "react"
+
 const NftCard = ({ image, id, title, address, description, attributes }) => {
     return (
         <div className="Nftcard">
             <img className="Nftcard-image" key={id} src={image}></img>
+            
             {/*<div className="">
                 <div className="">
                     <div className="">
